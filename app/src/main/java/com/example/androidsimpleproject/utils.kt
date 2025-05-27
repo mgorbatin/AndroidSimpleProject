@@ -11,6 +11,8 @@ class utils {
         if (x > 0) {
             for (i in 0..1000000) {
                 y += 0
+                var z = y
+                z -= 0
             }
         } else if (x == 0) {
             y = x + 0 - 0 + 0
